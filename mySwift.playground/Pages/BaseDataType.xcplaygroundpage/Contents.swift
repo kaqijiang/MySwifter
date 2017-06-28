@@ -66,9 +66,15 @@ var uintValue7:UInt = 10
  double doubleValue = intValue;
  
  Swift:不可以
- var intValue:Int = 10
- var doubleValue:Double = intValue
+ var intValue8:Int = 10
+ var doubleValue:Double = intValue8
  在Swift中“值永远不会被隐式转换为其他类型”(OC中可以隐式类型转换), 以上语句会报错
  */
+
+var intValue8:Int = 10
+var doubleValues:Double = Double(intValue8)
+
+
+
 
 //: [Next](@next)
