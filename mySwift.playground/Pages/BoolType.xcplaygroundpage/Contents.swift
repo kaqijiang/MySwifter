@@ -18,8 +18,8 @@ var str = "BOOL"
 
 
 let isOpen:Bool = true
-//自动推导
 
+//自动推导
 let isOpen1 = false
 
 //let isOpen2:Bool = 1
