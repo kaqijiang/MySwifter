@@ -8,6 +8,7 @@ import Foundation
 
 var str = "Hello, String"
 
+//转义字符\0(空字符)、\\(反斜线)、\t(水平制表符)、\n(换行符)、\r(回车符)、\"(双引号)、\'(单引号)。
 
 //字符串便利
 var strs = "adc中文"
@@ -211,6 +212,7 @@ let res = arry.joined(separator: "_") //"a_b_c"
 
 var str11 = "playskkswelcom"
 str11.range(of:"play")
+
 str11.range(of: "welcom", options: String.CompareOptions.caseInsensitive)//忽略大小写进行查找
 
 str11.startIndex
