@@ -220,6 +220,17 @@ str11.endIndex
 var str12 = "100"
 (str12 as NSString).intValue
 
+var str15 = "250"
+// 如果str不能转换为整数, 那么可选类型返回nil
+// str = "250sd", 不能转换所以可能为nil
+var numerber:Int? = Int(str15)
+if numerber != nil
+{
+    print(numerber!) // 2.0可以自动拆包,3.0以后则不会
+}
+
+
+
 //字符串包含。也可以用分割来实现，分割结果大于1就是存在
 let str13="hello,mandarava."
 let str14="mandarava"
