@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='raw'>
     <pages>
+        <page name='Untitled Page'/>
         <page name='log'/>
         <page name='variable'/>
+        <page name='Comments'/>
+        <page name='Semicolon'/>
         <page name='BaseDataType'/>
         <page name='TypeConversion'/>
+        <page name='typealias'/>
         <page name='BoolType'/>
         <page name='tuple'/>
         <page name='optionals'/>
@@ -12,8 +16,6 @@
         <page name='String'/>
         <page name='operator'/>
         <page name='array'/>
-        <page name='Untitled Page 8'/>
-        <page name='Untitled Page 9'/>
         <page name='Untitled Page 10'/>
         <page name='Untitled Page 11'/>
         <page name='Untitled Page 12'/>
@@ -24,6 +26,5 @@
         <page name='Untitled Page 17'/>
         <page name='Untitled Page 18'/>
         <page name='Untitled Page 19'/>
-        <page name='Untitled Page 20'/>
     </pages>
 </playground>

@@ -34,7 +34,15 @@ if isOpen {
     print("close")
 }
 
+//下边这个会提示 不是bool类型。编译不通过 Swift 的类型安全机制会阻止你用一个非布尔量的值替换掉 Bool
+//let i = 1
+//if i {
+//    // this example will not compile, and will report an error
+//}
 
-
+let i = 1
+if i == 1 {
+    // 这个就可以。因为i==1 这个表达式返回的是bool类型
+}
 
 //: [Next](@next)

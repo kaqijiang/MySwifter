@@ -34,4 +34,10 @@ var doubleValue2 :Double = Double(intValue)
 print(doubleValue)
 print(doubleValue2)
 
+
+
+let three = 3
+let pointOneFourOneFiveNine = 0.14159
+let pi = Double(three) + pointOneFourOneFiveNine//不加Double就会报错
+
 //: [Next](@next)
