@@ -114,7 +114,7 @@ var (name4, _) = t4 // 不需要时参数可以缺省
 var t5 = (name:"xxx3", 23)
 var t5_copy = t5
 t5.name = "李白"
-print("\(t5_copy.name)")
+print("\(t5_copy.name)")//xxx3
 
 
 // 关于元组的访问级别

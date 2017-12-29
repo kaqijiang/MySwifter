@@ -27,7 +27,7 @@ var optionValue2 :Int? = nil
 var optionValue3 :Int?
 
 if optionValue3 != nil{
-print(optionValue3 ?? "")
+    print(optionValue3 ?? "")
 }else{
 print("optionValue3","是nil")
 }
@@ -42,10 +42,22 @@ var optionValue4: Int? = 10
 
 var result1: Int = optionValue4!//强制解包
 
-//没值强制解包发生错误 fatal error: unexpectedly found nil while unwrapping an Optional value
-//var optionValue5: Int?
+//报错:
+//var optValue6: Int?
+//var result2: Int = optValue6!
 
-//var result2: Int = optionValue5!
+
+/*
+ If 语句以及强制展开
+ 你可以利用 if 语句通过比较 nil 来判断一个可选中是否包含值。利用相等运算符 （ == ）和不等运算符（ != ）。如果一个可选有值，他就“不等于” nil ：
+ */
+
+var convertedNumber: Int? = nil
+
+if convertedNumber != nil {
+    print(convertedNumber!)
+}
+
 
 /*
  可选绑定:
@@ -64,6 +76,16 @@ if let result4 = optionValue7 {
     print(result4)
 }
 
+//他不能包含其他的值，例如 Bool 值或者 String 值。它要么是 Int 要么什么都没有。）
+let possibleNumber = "123s"
+let convertedNumbers = Int(possibleNumber)
+type(of: convertedNumbers)//这是个可选的Int 要么有值是Int要么nil
+
+if let actualNumber = Int(possibleNumber) {
+    print("\'\(possibleNumber)\' has an integer value of \(actualNumber)")
+} else {
+    print("\'\(possibleNumber)\' could not be converted to an integer")
+}
 
 
 //: [Next](@next)
