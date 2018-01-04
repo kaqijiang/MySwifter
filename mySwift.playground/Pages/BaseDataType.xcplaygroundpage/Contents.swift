@@ -88,7 +88,7 @@ var uintValue7:UInt = 10
 
 var intValue8:Int = 10
 var doubleValues:Double = Double(intValue8)
-
+type(of: doubleValues)
 /*
  数值型字面量
  一个十进制数，没有前缀

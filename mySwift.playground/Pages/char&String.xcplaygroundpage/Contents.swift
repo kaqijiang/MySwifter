@@ -68,6 +68,7 @@ print(strings)
  */
 var stringValue2 = "abc\0def"
 print(stringValue2)
+stringValue2.count
 // 打印结果为:abcdef
 // 从此可以看出Swift中的字符串和C语言/OC语言中的字符串是不一样的
 
@@ -175,34 +176,6 @@ strs.count
 //swift
 
 var str1 = "https://github.com/\(1)"
-
-
-/**
- 
- 字符串比较
- 
- OC：
- NSString *str2 = @"abc";
- NSString *str3 = @"abc";
- 
- if([str2 compare:str3] == NSOrderedSame)
- {
- NSLog(@"相等");
- }else
- {
- NSLog(@"不相等");
- }
- 
- if(str2 isEqualToString:str3)
- {
- NSLog(@"相等");
- }else
- {
- NSLog(@"不相等");
- }
- 
- */
-
 
 
 //ComparisonResult是一个枚举类型，包含了以下3个成员：
@@ -334,12 +307,13 @@ welcomes.insert(contentsOf: str01, at: welcomes.endIndex)
 //要从字符串的特定索引位置移除字符，使用 remove(at:)方法，另外要移除一小段特定范围的字符串，使用 removeSubrange(_:) 方法：
 
 welcomes.remove(at: welcomes.index(before: welcomes.endIndex))
-
-let range: Range = welcomes.index(welcomes.endIndex, offsetBy: -6)..<welcome.endIndex
+welcomes
+let range: Range = welcomes.index(welcomes.endIndex, offsetBy: -6)..<welcomes.endIndex
 
 welcomes.removeSubrange(range)
-
+welcomes
 welcomes.removeAll()
+welcomes
 
 //你可以在任何遵循了 RangeReplaceableIndexable 协议的类型中使用 insert(_:at:) ， insert(contentsOf:at:) ， remove(at:) 方法。这包括了这里使用的 String ，同样还有集合类型比如 Array ， Dictionary 和 Set 。
 
@@ -370,13 +344,14 @@ if numerber != nil
 }
 
 
-//包含
-str13.contains(str14)//4.0新增
-
 //字符串包含。也可以用分割来实现，分割结果大于1就是存在
 let str13="hello,mandarava."
 let str14="mandarava"
 
+//包含
+str13.contains(str14)//4.0新增
+
+//字符串包含。也可以用分割来实现，分割结果大于1就是存在
 let ranges = str13.range(of: str14)
 
 if ranges != nil{
