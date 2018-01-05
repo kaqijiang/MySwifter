@@ -23,37 +23,43 @@ var str = "Hello, Set"
 let ingredients: Set = ["cocoa beans", "sugar", "cocoa butter", "salt"]
 
 let ingredientsCopy: Set = ["cocoa beans", "sugar", "cocoa butter", "salt"]
-let ingredientsCopy1: Set = ["cocoa beans", "sugar", "cocoa butter", "salt"]
+let ingredientsCopy1: Set = ["cocoa beans", "sugar", "cocoa butter", ]
 if ingredients.contains("sugar") {
     print("No thanks, too sweet.")
 }
 
 if ingredients == ingredientsCopy {
-    print("equal")
+    print("equal1")
 }
 
-//使用该方法来测试一个集合是否包含另一个集合或序列的所有元素。isSubset(of:)
+//方法来确定一个合集的所有值是被某合集包含； isSubset(of:)
 if ingredientsCopy1.isSubset(of: ingredients) {
-    print("equal")
+    print("equal2")
 }
 
-//使用该方法来测试集合中的所有元素是否包含在另一个集合或序列中。isSuperset(of:)
-if ingredients.isSubset(of: ingredientsCopy1) {
-    print("equal")
+//方法来确定一个合集是否包含某个合集的所有值； isSuperset(of:)
+if ingredients.isSuperset(of: ingredientsCopy1) {
+    print("equal3")
 }
 
 
 
 //使用和方法来测试一个集合是否是另一个集合的子集或超集，但不等于另一个集。isStrictSubset(of:)isStrictSuperset(of:)
-if ingredients.isStrictSubset(of: ingredientsCopy1) {
-    print("equal")
+if ingredientsCopy1.isStrictSubset(of: ingredients) {
+    print("equal4")
 }
 
-//使用该方法来测试一个集合是否与另一个集合有任何共同的元素。isDisjoint(with:)
-if ingredients.isDisjoint(with: ingredientsCopy1){
-    print("equal")
+//方法来判断两个合集是否拥有完全不同的值。isDisjoint(with:)
+
+if ingredientsCopy1.isDisjoint(with: ingredients){
+    print("不相同")
+}else {
+    print("有相同的值")
 }
+
 
 //https://developer.apple.com/documentation/swift/set
+
+
 
 //: [Next](@next)
