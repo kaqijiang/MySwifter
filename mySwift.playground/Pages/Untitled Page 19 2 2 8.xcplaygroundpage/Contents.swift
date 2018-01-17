@@ -1,5 +1,5 @@
 
-//: # page22 BaseDataType
+//: # page23 BaseDataType
 //: 侯伟杰 --: SwiftPlayground--https://github.com/kaqijiang
 //: [previous](@previous)
 

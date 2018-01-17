@@ -171,7 +171,7 @@ for (index, value) in shoppingList.enumerated() {
 
 // 适合函数返回多元数据
 func userInfoOne() ->(String, Int) {
-    return ("小韩哥", 26)
+    return ("names", 26)
 }
 
 // 函数也可以返回可选元组, 即可以返回nil
