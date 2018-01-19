@@ -33,19 +33,19 @@
         <page name='方法'/>
         <page name='下标'/>
         <page name='继承'/>
-        <page name='Untitled Page 19 2 2 7'/>
-        <page name='Untitled Page 19 2 2 8'/>
-        <page name='Untitled Page 19 2 2'/>
-        <page name='Untitled Page 19 2 3'/>
-        <page name='Untitled Page 19 2 4'/>
-        <page name='Untitled Page 19 2 5'/>
-        <page name='Untitled Page 19 2 6 2'/>
-        <page name='Untitled Page 19 2 6 3'/>
-        <page name='Untitled Page 19 2 6 4'/>
-        <page name='Untitled Page 19 2 6'/>
-        <page name='Untitled Page 19 2 7'/>
-        <page name='Untitled Page 19 2 8'/>
-        <page name='Untitled Page 19 2 9'/>
+        <page name='构造方法1'/>
+        <page name='构造方法2'/>
+        <page name='构造方法3'/>
+        <page name='析构方法'/>
+        <page name='内存相关'/>
+        <page name='可选类型'/>
+        <page name='协议'/>
+        <page name='扩展'/>
+        <page name='泛型'/>
+        <page name='补充'/>
+        <page name='KVO&amp;KVC'/>
+        <page name='代理'/>
+        <page name='封装，多态，嵌套类型'/>
         <page name='Untitled Page 19 2'/>
     </pages>
 </playground>
