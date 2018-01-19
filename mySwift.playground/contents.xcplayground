@@ -35,7 +35,6 @@
         <page name='继承'/>
         <page name='构造方法1'/>
         <page name='构造方法2'/>
-        <page name='构造方法3'/>
         <page name='析构方法'/>
         <page name='内存相关'/>
         <page name='可选类型'/>
