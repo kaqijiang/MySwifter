@@ -21,7 +21,6 @@ var str = "Hello, Set"
 //唯一 无序
 
 let ingredients: Set = ["cocoa beans", "sugar", "cocoa butter", "salt"]
-
 let ingredientsCopy: Set = ["cocoa beans", "sugar", "cocoa butter", "salt"]
 let ingredientsCopy1: Set = ["cocoa beans", "sugar", "cocoa butter", ]
 if ingredients.contains("sugar") {

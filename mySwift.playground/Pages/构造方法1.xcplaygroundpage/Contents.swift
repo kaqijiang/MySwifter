@@ -228,7 +228,7 @@ class Person5 {
         return 99
     }
 }
-var p5 = Person5(name: "hjq")
+var p5 = Person5(name: "we")
 //懒加载是用到才执行, 而闭包赋值是初始化时就会执行
 print(p5.height)
 

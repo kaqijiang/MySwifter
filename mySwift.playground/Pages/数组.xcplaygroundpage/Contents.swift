@@ -15,11 +15,9 @@ var str = "Hello, array"
 
 //有值数组
 var arr0 = [1,2,3]
-var arr3: [Int] = [1,2,3]
-
 var arr1: Array = [1,2,3]
 var arr2: Array<Int> = [1,2,3]
-
+var arr3: [Int] = [1,2,3]
 var threeDoubles = Array(repeating: 0.0, count: 3)
 
 // var arr4: Int[] = [1,2,3] // 早期写法 已废弃
@@ -41,14 +39,14 @@ var arr9 : [String] = [String]()
  NSArray *arr = @[@1, @"lnj", @1.75];
  NSLog(@"%@", arr);
  */
-var arr10 = [1,"hjq",1.65] as [Any]
+var arr10 = [1,"we",1.65] as [Any]
 print(arr10)
 print(arr10[2])
 // 打印结果:  [1, "hjq", 1.6499999999999999]
 // 1.65
 
 //如果想明确表示数组中存放的是不同类型的数据, 可以使用Any关键字, 表示数组中可以存放不同类型的数据
-var arr11:Array<Any> = [1,"hjq",1.75]
+var arr11:Array<Any> = [1,"we",1.75]
 print(arr11)
 print(arr11[2])
 // 打印结果:  [1, "hjq", 1.75]
@@ -227,22 +225,18 @@ var arr111 = [1,2,3]
 //    print(arr1[i])
 //}
 // 3.0
-for i in 0..<arr111.count
-{
+for i in 0..<arr111.count {
     print(arr111[i])
 }
-for number in arr111
-{
+for number in arr111 {
     print(number)
 }
 
 //取出数组中某个区间范围的值
 var arr1112 = [1,2,3]
-for number in arr1112[0..<3]
-{
+for number in arr1112[0..<3] {
     print(number)
 }
-
 
 for (index, value) in arr1112.enumerated() {
     print("Item \(index + 1): \(value)")
