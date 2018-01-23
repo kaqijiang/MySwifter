@@ -94,8 +94,6 @@ case (var x, 10):   // 会将point中的x赋值给
     print("x = \(x)")
 case (1, var y): // 会将point中xy的值赋值给xy
     print("x =  y = \(y)")
-case var(x,y):
-    print("x = \(x) y =\(y)")
 default:
     print("Other")
 }

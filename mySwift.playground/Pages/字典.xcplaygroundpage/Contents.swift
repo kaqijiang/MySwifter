@@ -26,17 +26,17 @@ var str = "Hello, playground"
 
 var namesOfIntegers = [Int: String]()
 
-var dict = ["name":"hjq","age":25.5] as Any
+var dict = ["name":"we","age":25.5] as Any
 print(dict)
 
 //var dict1:Dictionary = ["name":"hjq","age":25.5] 废弃
 
-var dict2:Dictionary<String,AnyObject> = ["name":"jq" as AnyObject,"age":25.5 as AnyObject]
+var dict2:Dictionary<String,AnyObject> = ["name":"we" as AnyObject,"age":25.5 as AnyObject]
 print(dict2)
 
 //var dict3:Dictionary<String:AnyObject> = ["name":"jq","age":34]  废弃
 
-var dict4:[String:AnyObject] = ["name":"hjq" as AnyObject ,"age":30 as AnyObject ]
+var dict4:[String:AnyObject] = ["name":"we" as AnyObject ,"age":30 as AnyObject ]
 print(dict4)
 
 //var dict5:[String:AnyObject] = Dictionary(dictionaryLiteral: ("name","hjq"),("age",28))
@@ -55,7 +55,7 @@ let arrDic:[[String:Any]] = [
 print(arrDic)
 
 //2.可变字典的增删改查
-var dictionary:[String:Any] = ["name":"hjq","age":23]
+var dictionary:[String:Any] = ["name":"we","age":23]
 print(dictionary)
 /** key存在则为修改, key不存在则为添加 **/
 //增加键值对
@@ -89,7 +89,7 @@ for (key,value) in dictionary
 }
 
 //字典合并
-var dic5 = ["name":"hihello","age":23] as [String : Any]
+var dic5 = ["name":"we","age":23] as [String : Any]
 let dic6 = ["teacher":"wang"]
 
 for (key,value) in dic6
