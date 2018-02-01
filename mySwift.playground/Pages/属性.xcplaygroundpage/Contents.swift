@@ -139,7 +139,7 @@ struct Rect {
 
 var r = Rect()
 r.origion = (0, 0)
-r.size = (100, 100)
+r.size = (120, 120)
 print("center.x = \(r.center.x) , center.y = \(r.center.y)")
 r.center = (100, 100)
 print("origion.x = \(r.origion.x) , origion.y = \(r.origion.y)")
