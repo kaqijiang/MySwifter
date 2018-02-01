@@ -73,7 +73,7 @@ let calAdd4:()->Int = {return 100 + 150}
 print("....\(calAdd4())")
 
 //既没有参数也没返回值，所以把return和in都省略了
-let calAdd5:()->Void = {print("我是250")}
+let calAdd5:()->Void = {print("我是23")}
 calAdd5()
 
 /** 闭包表达式作为回调函数 **/
@@ -191,7 +191,7 @@ func doSomething(some: @escaping() -> Void) {
     //延时操作, 注意这里的单位是秒
     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
         // 1s后操作
-        some()
+         some()
     }
     print("函数体")
 }
