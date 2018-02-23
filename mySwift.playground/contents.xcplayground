@@ -41,7 +41,6 @@
         <page name='协议'/>
         <page name='扩展'/>
         <page name='泛型'/>
-        <page name='补充'/>
         <page name='KVO&amp;KVC'/>
         <page name='代理'/>
         <page name='封装，多态，嵌套类型'/>

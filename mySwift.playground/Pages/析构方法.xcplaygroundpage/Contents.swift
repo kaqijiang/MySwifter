@@ -27,6 +27,7 @@ class FileHandle {
             fd = ret
         }
         print("对象被创建")
+        
     }
     //析构方法
     deinit {
